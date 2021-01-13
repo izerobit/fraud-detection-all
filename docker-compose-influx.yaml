@@ -1,0 +1,8 @@
+version: "2.2"
+services:
+
+  influxDB:
+    image: influxdb:1.8
+    container_name: influxDB-server
+    ports:
+      - "8086:8086"

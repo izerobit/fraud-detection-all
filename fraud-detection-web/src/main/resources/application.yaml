@@ -1,0 +1,10 @@
+server:
+  port: 5656
+
+spring:
+  kafka:
+    producer:
+#      bootstrap-servers: kafka-cp-kafka-headless:9092
+      bootstrap-servers: localhost:9092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
