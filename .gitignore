@@ -1,7 +1,10 @@
 # Project exclude paths
 /fraud-detection-demo/.gradle/
+/fraud-detection-demo/.idea/
 /fraud-detection-demo/build/
 /fraud-detection-demo/build/classes/java/main/
 /fraud-detection-web/.gradle/
+/fraud-detection-web/.idea/
 /fraud-detection-web/build/
 /fraud-detection-web/build/classes/java/main/
+.idea
